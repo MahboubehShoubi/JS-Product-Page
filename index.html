@@ -21,71 +21,72 @@
         <div class="search">
           <input placeholder="Search Name" type="text" id="search-name"/>
           <div class="filter-box">
-            <button class="filter">َAll</button>
-            <button class="filter">Tech</button>
-            <button class="filter">Health</button>
-            <button class="filter">clothes</button>
+            <button class="filter selected" data-filter="all">َAll</button>
+            <button class="filter" data-filter="tech">Tech</button>
+            <button class="filter" data-filter="health">Health</button>
+            <button class="filter" data-filter="clothes">clothes</button>
           </div>
           <div class="search-number">
-            <input placeholder="Search Number" type="number" />
-            <button class="btn-Search">Search</button>
+            <input placeholder="Min Price" type="number" id="min-price"/>
+            <input placeholder="Max Price" type="number" id="max-price">
+            <button id="search-price">Search</button>
           </div>
         </div>
 
         <div id="products">
 
-          <div class="product-item" category="tech">
+          <div class="product-item" data-category="tech">
             <img src="./img/airpods.png" alt="product" />
             <p>Apple Airpods</p>
-            <span>pric : <span class="pric">500</span> $</span>
+            <span>pric : <span class="price">750</span> $</span>
           </div>
 
-          <div class="product-item" category="clothes">
+          <div class="product-item" data-category="clothes">
             <img src="./img/bag.png" alt="product" />
             <p>Bag</p>
-            <span>pric : <span class="pric">500</span> $</span>
+            <span>pric : <span class="price">210</span> $</span>
           </div>
 
-          <div class="product-item" category="health">
+          <div class="product-item" data-category="health">
             <img src="./img/cream.png" alt="product" />
             <p>Blancing Face Cream</p>
-            <span>pric : <span class="pric">50</span> $</span>
+            <span>pric : <span class="price">50</span> $</span>
           </div>
 
-          <div class="product-item" category="tech">
+          <div class="product-item" data-category="tech">
             <img src="./img/iphone.png" alt="product" />
             <p>Apple iphone 13 PRO</p>
-            <span>pric : <span class="pric">1250</span> $</span>
+            <span>pric : <span class="price">1250</span> $</span>
           </div>
 
-          <div class="product-item" category="clothes">
+          <div class="product-item" data-category="clothes">
             <img src="./img/jacket.png" alt="product" />
             <p>Jacket</p>
-            <span>pric : <span class="pric">280</span> $</span>
+            <span>pric : <span class="price">280</span> $</span>
           </div>
 
-          <div class="product-item" category="health">
+          <div class="product-item" data-category="health">
             <img src="./img/shampoo.png" alt="product" />
             <p>Shampoo Keratin</p>
-            <span>pric : <span class="pric">350</span> $</span>
+            <span>pric : <span class="price">350</span> $</span>
           </div>
 
-          <div class="product-item" category="clothes">
+          <div class="product-item" data-category="clothes">
             <img src="./img/shoes.png" alt="product" />
             <p>Shoes</p>
-            <span>pric : <span class="pric">35</span> $</span>
+            <span>pric : <span class="price">35</span> $</span>
           </div>
 
-          <div class="product-item" category="health">
+          <div class="product-item" data-category="health">
             <img src="./img/vitamin.png" alt="product" />
             <p>Vitamine</p>
-            <span>pric : <span class="pric">500</span> $</span>
+            <span>pric : <span class="price">500</span> $</span>
           </div>
 
-          <div class="product-item" category="tech">
+          <div class="product-item" data-category="tech">
             <img src="./img/watch.png" alt="product" />
             <p>Apple Watch</p>
-            <span>pric : <span class="pric">500</span> $</span>
+            <span>pric : <span class="price">500</span> $</span>
           </div>
 
         </div>
